@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  background: #121212;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h1, h2, h3 {
+    color: #ff9800;
+}
+
+.project {
+    background: rgba(1, 245, 249, 0.6);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(5, 226, 255, 0.8);
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #f1f1f1;
+    font-size: 2em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9800;
+}
